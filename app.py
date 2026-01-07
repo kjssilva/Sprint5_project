@@ -12,7 +12,7 @@ if hist_button: # se o botão for clicado
     # escrever uma mensagem
     st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
 
-criar um histograma
+#criar um histograma
     fig_hist = px.histogram(car_data, x="odometer")
 
     # exibir um gráfico Plotly interativo
@@ -24,7 +24,7 @@ if scatter_button: # se o botão for clicado
     # escrever uma mensagem
     st.write('Criando um gráfico de dispersão entre preço e kilometragem para o conjunto de dados de anúncios de vendas de carros')
 
-criar um histograma
+#criar um histograma
     fig_scatter = px.scatter(car_data, x="odometer", y="price")
 
     # exibir um gráfico Plotly interativo
